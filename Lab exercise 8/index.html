@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Product Catalog</h1>
+    
+    <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Search by keyword">
+        <button id="search-button">Search</button>
+    </div>
+    
+    <div class="sort-options">
+        <label for="sort-select">Sort by:</label>
+        <select id="sort-select">
+            <option value="name">Name</option>
+            <option value="price">Price</option>
+        </select>
+    </div>
+    
+    <div class="product-list" id="product-list">
+        <!-- Product items will be dynamically generated here -->
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
